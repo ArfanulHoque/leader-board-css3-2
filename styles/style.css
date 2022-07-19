@@ -1,0 +1,72 @@
+/*-------------
+ Header Logo 
+ --------------*/
+.header {
+    background-color:
+        #562EFF;
+
+
+    display: flex;
+    margin: 0;
+
+}
+
+.header-logo {
+    display: flex;
+    gap: 15px;
+    padding-left: 285px;
+    margin: 0;
+
+}
+
+.idea-img {
+    padding-: 17px;
+    margin: 0;
+}
+
+.idea {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 24px;
+    padding-top: 20px;
+
+
+}
+
+img {
+    width: 40.42px;
+    height: 51px;
+    padding-left: 36px;
+    padding-top: 23px;
+
+
+}
+
+.buttons {
+    display: flex;
+    padding-left: 1024px;
+    padding-top: 36px;
+}
+
+.button {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+
+
+}
+
+.btn1 {
+    text-decoration: none;
+    padding-left: 36px;
+}
+
+.btn2 {
+    text-decoration: none;
+    padding-left: 36px;
+}
+
+.btn3 {
+    text-decoration: none;
+    padding-left: 36px;
+}
