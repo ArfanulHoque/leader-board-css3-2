@@ -1,5 +1,17 @@
+/*-----------
+ Font Style 
+--------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* Common styles and utilities */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+
+}
+
 /*-------------
- Header Logo 
+ Banner Styles 
  --------------*/
 .header {
     background-color:
@@ -8,6 +20,7 @@
 
     display: flex;
     margin: 0;
+
 
 }
 
@@ -39,19 +52,20 @@ img {
     padding-left: 36px;
     padding-top: 23px;
 
-
 }
 
 .buttons {
     display: flex;
     padding-left: 1024px;
     padding-top: 36px;
+    color: #FFFFFF;
 }
 
 .button {
     text-decoration: none;
     font-size: 16px;
     font-weight: 400;
+    color: #FFFFFF;
 
 
 }
@@ -59,14 +73,53 @@ img {
 .btn1 {
     text-decoration: none;
     padding-left: 36px;
+    color: #FFFFFF;
+
 }
 
 .btn2 {
     text-decoration: none;
     padding-left: 36px;
+    color: #FFFFFF;
 }
 
 .btn3 {
     text-decoration: none;
     padding-left: 36px;
+    color: #FFFFFF;
+}
+
+/*--------------
+ Players Sstyles
+ ----------------*/
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-player {
+    font-weight: 500;
+    font-size: 24px;
+    color: #562EFF;
+    padding-left: 50px;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 55px;
+}
+
+.player {
+    display: flex;
+    gap: 16px;
+
+}
+
+.player-name {
+    padding-left: 18px;
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 10px;
 }
